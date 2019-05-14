@@ -1,0 +1,106 @@
+.answerchoice {
+	border: 1px solid black;
+    border-radius: 5%;
+    width: 40%;
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: white;
+
+}
+
+img {
+    max-height: 250px;
+    width: auto;
+}
+
+#answerblock {
+    text-align: center;
+
+}
+
+#questionblock {
+    text-align: center;
+    font-weight: bold;
+}
+
+#reset {
+    visibility: visible;
+}
+
+body {
+    background-image: url("../images/80s-retro-background.jpg");
+    background-size: cover;
+    font-family: 'Monoton', sans-serif;
+}
+
+.header {
+    background-color: #9400D3;
+    margin: 20px 150px 20px 150px;
+    border: 2px solid #00BFFF;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 45px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #9400D3;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #9400D3;
+}
+
+p {
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.wrapper {
+    margin: 10px auto;
+    background-image: url(../images/risky-business-sunglasses.jpg);
+    border: 2px solid #7FFF00;
+    height: 490px;
+    width: 40%;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    bottom: -150px;
+}
+
+footer {
+    background: #9400D3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #00BFFF;
+    clear: both;
+}
+
+h5 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 0;
+}
