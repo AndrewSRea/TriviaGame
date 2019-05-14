@@ -1,43 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
         <title>Totally 80's Trivia</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
     </head>
     <body>
-
-        <!--header box for this headline-->
-        <div class="triviaHeader">
+        <div class="header">
             <h1>Totally Tubular 80's Tunes Trivia</h1>
         </div>
-
-        <!--box to hold background image of Tom Cruise in "Risky Business"-->
-        <div class="riskyBizBG">
-            <div class="triviaBox">
-                <!--box to hold trivia questions, timer, etc.-->
-
-                <!--trivia about names of songs belonging to which 80's bands-->
-            <!--10 songs to match to 80's bands-->
-            <!--obscure to relatively known, like: "Mexican Radio" / Wall of Voodoo-->
-            <!--make the bands the multiple choice: a) The Kinks; b) Wall of Voodoo; c) Kajagoogoo; d) Split Enz-->
-            <!--"Der Komissar": a) Kraftwerk; b) New Order; c)  ; d) Falco-->
-            <!--"Come Dancing": a) David Bowie; b) The Kinks; c) Men Without Hats; d) Wang Chung-->
-            <!--"Whip It": a) Michael Jackson; b) Billy Ocean; c) The Motels; d) Devo-->
-            <!--"Video Killed the Radio Star": a) Queen; b) The Art of Noise; c) The Go-Go's; d) The Buggles-->
-
-
-
-            </div>
-
+        <div class="wrapper">	
+            <h2>Match the awesome song with its radical artist/band!</h2>
+            <div id= "timeleft"></div>
+            <div id= "questionblock"></div>
+            <div id= "answerblock"></div>
+            <button class ="btn btn-success" id ="start">Start Game</button><br>
+            <button class="btn btn-success" id="reset">Play Again?</button>
         </div>
-
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-            crossorigin="anonymous"></script>
-        <script src="assets/javascript/app.js"></script>
-
+        <footer>
+            <h5>Brought to you by Papa Dan's Coding Bootcamp</h5>
+            <h5>(Gnarly! Like, far out!)</h5>
+        </footer>
     </body>
 </html>
